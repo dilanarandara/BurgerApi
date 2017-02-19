@@ -30,7 +30,7 @@ class OrderService {
                 return count < orderItemCount;
             },
             (cb) => {
-                self.logger.info('Order created. Order Number : ' + orderNumber);
+                self.logger.info('Order created. Version 2 *****. Order Number : ' + orderNumber);
                 count++;
                 cb(null);
             },
